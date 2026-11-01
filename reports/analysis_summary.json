@@ -1,0 +1,51 @@
+{
+  "source_file": "Online Retail.xlsx",
+  "snapshot_date": "2011-12-10",
+  "currency": "GBP",
+  "cleaning": {
+    "rows_read": 541909,
+    "rows_removed_missing_customer": 135080,
+    "rows_removed_cancellations": 8905,
+    "rows_removed_invalid_or_nonpositive": 40,
+    "rows_removed_exact_duplicates": 5192,
+    "rows_retained": 392692,
+    "customers_retained": 4338
+  },
+  "rfm_customer_count": 4338,
+  "kmeans": {
+    "selected_k": 2,
+    "selection_metric": "silhouette score in standardized log-RFM space",
+    "silhouette": 0.43250906819167395,
+    "cluster_sizes": {
+      "0": 1668,
+      "1": 2670
+    }
+  },
+  "dbscan": {
+    "eps": 0.35,
+    "min_samples": 8,
+    "cluster_count_excluding_noise": 3,
+    "noise_share": 0.04633471645919779,
+    "silhouette_excluding_noise": 0.17676018368324117,
+    "cluster_sizes_including_noise": {
+      "-1": 201,
+      "0": 1858,
+      "1": 1464,
+      "2": 815
+    },
+    "epsilon_sensitivity_file": "dbscan_epsilon_sensitivity.csv"
+  },
+  "pca": {
+    "explained_variance_ratio": [
+      0.7511992771992716,
+      0.1873988720671552
+    ],
+    "total_explained_variance": 0.9385981492664268
+  },
+  "limitations": [
+    "The transaction history is a single retailer's historical sample, not a current market view.",
+    "Cluster labels describe relative purchase behavior and are not causal or immutable customer traits.",
+    "t-SNE is a local-neighborhood visualization and should not be interpreted as preserving global distances.",
+    "DBSCAN silhouette, when available, is calculated after excluding noise points."
+  ]
+}

@@ -1,0 +1,7 @@
+method,cluster,customer_count,share_pct,median_recency,median_frequency,median_monetary,persona,recency_vs_customer_base,frequency_vs_customer_base,monetary_vs_customer_base,activation_idea
+DBSCAN,-1,201,4.633471645919779,15.0,8.0,6463.84,Unassigned (noise),15 days,8.0 orders,"£6,463.84",Review individually or with a separate rule-based audience; avoid treating sparse behavior as a stable persona.
+DBSCAN,0,1858,42.83079760258183,25.0,5.0,1582.7,Champions,low,high,high,Reward advocacy with early access or a referral offer; protect margin with recognition before discounting.
+DBSCAN,1,1464,33.748271092669434,135.0,1.0,256.01,Needs reactivation,high,low,low,Run a low-cost reactivation test and suppress further spend if the customer stays inactive.
+DBSCAN,2,815,18.787459658828954,64.0,2.0,540.13,Steady customers,mid,mid,mid,Maintain useful product updates and test a modest loyalty benefit against a no-offer holdout.
+K-Means,0,1668,38.4508990318119,17.0,6.0,2058.17,Champions,low,high,high,Reward advocacy with early access or a referral offer; protect margin with recognition before discounting.
+K-Means,1,2670,61.54910096818811,96.0,1.0,362.01,Needs reactivation,high,low,low,Run a low-cost reactivation test and suppress further spend if the customer stays inactive.

@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecommerce-customer-segmentation"
+version = "1.0.0"
+description = "RFM customer segmentation with K-Means, DBSCAN, PCA, and t-SNE"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
