@@ -7,3 +7,4 @@ venv/
 outputs/
 data/raw/*
 !data/raw/.gitkeep
+!data/raw/Online Retail.xlsx

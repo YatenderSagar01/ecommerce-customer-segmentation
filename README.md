@@ -10,7 +10,7 @@ How can an online retailer group customers by their observed purchase behavior a
 
 This project uses the [UCI Online Retail dataset](https://archive.ics.uci.edu/dataset/352/online%2Bretail), a transactional dataset covering a UK-based non-store retailer from 1 December 2010 through 9 December 2011. It contains invoice, product, quantity, timestamp, unit price, customer, and country fields. UCI reports 541,909 records and makes the dataset available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please cite: Chen, D. (2015). *Online Retail* [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5BW33.
 
-The source file is not committed to this repository. Download it with:
+The raw workbook is included at `data/raw/Online Retail.xlsx` so the analysis can run immediately after dependency installation. To replace it with a fresh UCI copy, run:
 
 ```bash
 python -m pip install -r requirements.txt
