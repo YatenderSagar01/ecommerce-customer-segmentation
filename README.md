@@ -88,7 +88,7 @@ The source covers a limited historical period and a single retailer. Recency is 
 ```text
 .
 ├── data/
-│   └── raw/                         # downloaded source data (not committed)
+│   └── raw/                         # included UCI workbook
 ├── reports/                         # analysis tables, summary, and figures
 ├── src/segmentation_case_study/
 │   ├── data.py                      # loading, cleaning, and RFM features
